@@ -43,7 +43,6 @@ public class MyBinarySearchTree<K extends Comparable<K>> {
             System.out.print(node.key + " ");
             if (node.right != null)
                 print(node.right);
-
         }
     }
 }
